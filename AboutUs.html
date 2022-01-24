@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/hand-washing-filled/64/hygiene-18-1024.png" type="image/x-icon"/>
+	<title>AboutUs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<style>
+*{box-sizing: border-box;}
+body{
+  margin:0;
+    padding:0;
+  background-color:#c9e3e3;
+  font-family: 'Roboto', sans-serif;
+}
+#social{
+    background-color:#004c4c;
+    color:white;
+    height:55px;
+    widht:100%;
+    position:sticky;
+    top:0;
+    z-index:1;
+    font-size:18px;
+    text-align:right;
+    padding:15px;
+    }
+font{
+  float:left;
+  letter-spacing:2px;
+}
+
+span{
+  font-size:12px;
+  letter-spacing:1px;
+}
+#social>i{
+  margin-right:15px;
+  transition: transform 0.8s;
+}
+#social>i:hover{
+  /**opacity:0.8;**/
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+#container{
+  width:80%;
+  margin:auto;
+  height:auto;
+  }
+header{
+  width:100%;
+  height:400px;
+  box-shadow: 0 2px 8px 2px rgb(0,128,128, .15);
+  position: relative;
+  color:	#008080;
+ font-family: 'Arvo', serif;
+  margin-bottom:5px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  font-weight:bold;
+  }
+
+#headerresim{
+  width:100%;
+  height:400px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  /**opacity:0.8;**/
+}
+
+#centered{
+  position:absolute;
+  top:15%;
+  left:20%;
+  transform:translate(-50%,-50%);
+  font-size:25px;
+}
+section{
+  width:100%;
+  height:auto;
+  background-color:#f1f1f1;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  box-shadow: 0 2px 8px 2px rgb(0,128,128, .15);
+  margin-top:15px;
+  overflow:auto;
+}
+nav{
+  width:20%;
+  float:left;
+  margin-top:10px;
+  height:auto; 
+  
+}
+nav ul{
+  width:auto;
+  height:100%;
+  margin:0;
+  padding:0;
+  
+}
+nav li{
+  list-style-type:none;
+}
+nav li a{
+  height:auto;
+  line-height:50px;
+  text-decoration:none;
+  color:#004c4c;
+  border-bottom: 1px solid #008080;
+  padding-left:20px;
+  display:block;
+}
+nav li a:hover{
+  color:white;
+  background-color:#006666;
+}
+i{
+  margin-right:10px;
+}
+
+main{
+  float:left;
+  height:auto;
+  width:80%;
+  padding:20px;
+}
+.icerik{
+  width:45%;
+  height:auto;
+  display: inline-block;
+  margin-right:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+  box-shadow: 0 2px 8px 2px rgb(0,128,128, .15);
+  /**padding:5px;**/
+}
+.rsm{
+  width:100%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  transition: opacity 0.8s;
+  }
+.rsm:hover{
+  opacity:0.6;
+}
+h5{
+  margin:10px;
+  color:#008080;
+}
+.iceriktext{
+  margin:10px;
+  color:#008080;
+}
+.btndevam:link{
+  display:block;
+  width:150px;
+  height:45px;
+  padding:10px 20px;
+  background-color:#008080;
+  color:white;
+  text-decoration:none;
+  margin:15px;
+  border-radius:10px;
+}
+.btndevam:visited{
+	text-decoration:none;
+	color:white;
+}
+.btndevam:hover{
+  opacity:0.8;
+}
+
+
+footer{
+  width:100%;
+  height:75px;
+  background-color:#004c4c;
+  color:white;
+  line-height:75px;
+  text-align:center;
+  box-shadow: 0 2px 8px 2px rgb(0,128,128, .15);
+}
+	h1{
+	text-align:center;
+	background-color:#004c4c;
+	color:white;
+	height:50px;
+	line-height:50px;
+	margin: 0 10px;
+	border-radius:10px;
+	box-shadow: 0 2px 8px 2px rgb(0,128,128, .15);
+	
+	}
+	#aursm{
+		width:350px;
+		height:300px;
+		float:left;
+		border-radius:10px;
+		margin:18px;
+		margin-bottom:13px;
+		transition: opacity 0.8s;
+	}
+	#aursm:hover{
+	opacity:0.6;
+	}
+	
+	.aup{
+		margin-right:15px;
+		font-size:15px;
+		font-family: Cambria;
+		text-indent:40px;
+		color:#008080;
+	}
+	.auh3{
+		font-family: Cambria;
+		color:#006666;
+	}
+	em{
+	font-height:bold;
+	}
+	
+
+
+
+
+</style>
+</head>
+<body>
+<div id="social"> 
+  
+  <font>SEMIKSCO |  <span>Tuurlijk Natuurlijk...</span></font>
+
+  <i class="fas fa-search"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-google"></i>
+  </div>
+<div id="container"> 
+  
+      <header> 
+      <img id="headerresim" src="https://images.pexels.com/photos/4210373/pexels-photo-4210373.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="zeep">
+      
+     <div id="centered"> SEMIKSCO </div>
+  </header>
+    <section>
+        <nav> 
+          <ul>
+            
+            <li><a href="index.html"><i class="fas fa-home"></i>Home Page</a></li>
+            <li><a href="AboutUs.html"><i class="fas fa-users"></i>About Us</a></li>
+            <li><a href="Gallery.html"><i class="fas fa-images"></i>Gallery</a></li>
+            <li><a href="ContactUs.html"><i class="fas fa-address-book"></i>Contact</a></li>
+                       
+          </ul>
+      
+        </nav>
+        <main>
+                
+				<h1>About Us</h1>
+				
+				<img id="aursm" src="https://images.pexels.com/photos/4354675/pexels-photo-4354675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt"">
+				
+				
+					<p class="aup">Hello, I'm Halil. 
+					Semiksco is a natural soap enterprise established in the Netherlands in 2022. 
+					"Of course natural", we started this way with the slogan and now we serve millions. 
+					<strong><em>Everyone deserves naturalness.</em></strong> </p>
+					
+				<h3 class="auh3">About my Soap</h3>
+					<p class="aup">Handmade soap is not only therapeutic to make, but also a great way to infuse the healing properties of plants and natural clays into something that touches your skin every day.
+					My signature soap recipes, contain pure and powerful ingredients. These soaps incorporate only the best ingredients sourced from
+					sustainable and local suppliers.These soaps contain olive oil, sweet almond oil, organic coconut oil, castor oil and raw organic 
+					shea butter in different proportions.My soaps contain organic essential oils, freshly dried herbs & botanicals, natural colorants, 
+					exfoliants and natural clays.My soaps have the necessary safety reports and fully comply with the 1223/2009 European cosmetic regulations,
+					made under GMP and registered with the CPNP.</p>
+					
+					<h3 class="auh3">Our team</h3>
+					<p class="aup">In order to make even more people happy with soaps and care products, I work with a number of very special women around me.
+					Thanks to these super friends, SemiksCo can grow and make even more people happy. Each and every one of them beautiful, powerful, beautiful women with enormous talent.<br>
+					Bilal Ozgul: The beautiful webshop is from his hand. Last year we became dear colleague friends. He makes the most beautiful, loving jewelry himself. <br>
+					Hack: She perfectly captures the atmosphere of SemiksCo with her beautiful photos.<br>
+					Your: She helped me with the lyrics and made my chat about soap a whole.<br>
+					Future: For years she worked for large cosmetics companies, but because of our passion for natural products we are a super team.<br>
+					https://www.khanacademy.org/<br>
+					https://www.hackyourfuture.net/<br>
+					Bilalin websitesi<br>
+					There is nothing more beautiful for me than hearing from customers how happy they are with the products, because their skin has visibly improved.
+					And I hope to achieve the same for you.
+					Love, Halil - owner SemiksCo.</p>
+					
+				
+         </main>
+     </section>
+       <footer> All rights reserved &copy; | 2022
+      </footer>
+    </div>
+  </body>
+</html>
